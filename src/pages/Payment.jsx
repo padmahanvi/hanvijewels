@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Payment.css";
+/* ✅ Vite image import (deployment safe) */
+import successImg from "../assets/fashionimages/categoriesimages/category11.jpg";
 
 export default function Payment() {
   const navigate = useNavigate();
@@ -121,7 +123,7 @@ export default function Payment() {
                     <p className="success-text fw-bold">payment done successfully</p>
                     <div className="success-image-wrap">
                       <img
-                        src="/fashionimages/categoriesimages/category11.jpg"
+                        src={successImg}
                         alt="Success"
                         className="success-image"
                       />
