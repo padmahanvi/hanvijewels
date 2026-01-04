@@ -91,7 +91,7 @@ export default function Home() {
 
                 <div className="hero-right">
                   <img
-                    src="fashionimages\homeimages\home1.jpg"
+                    src="/fashionimages/homeimages/home1.jpg"
                     alt="Banner 1"
                     className="hero-img"
                   />
@@ -117,7 +117,7 @@ export default function Home() {
 
                 <div className="hero-right">
                   <img
-                    src="fashionimages\homeimages\home2.jpg"
+                    src="/fashionimages/homeimages/home2.jpg"
                     alt="Banner 2"
                     className="hero-img"
                   />
@@ -167,7 +167,7 @@ export default function Home() {
             <div className="category-card">
               <div className="category-img-wrap">
                 <img
-                  src="fashionimages\homeimages\home4.jpg"
+                  src="/fashionimages/homeimages/home4.jpg"
                   alt="Watches"
                 />
               </div>
@@ -191,7 +191,7 @@ export default function Home() {
             <div className="category-card">
               <div className="category-img-wrap">
                 <img
-                  src="fashionimages\homeimages\home6.jpg"
+                  src="/fashionimages/homeimages/home6.jpg"
                   alt="Electronics & Accessories"
                 />
               </div>
@@ -231,7 +231,7 @@ export default function Home() {
 
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="testimonial-card">
-              <img src="fashionimages\homeimages\home8.jpg" alt="Moni" />
+              <img src="/fashionimages/homeimages/home8.jpg" alt="Moni" />
               <h5 className="mt-4">Moni</h5>
               <p>⭐⭐⭐⭐⭐</p>
               <p>
@@ -251,7 +251,7 @@ export default function Home() {
 
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="testimonial-card">
-              <img src="fashionimages\homeimages\home9.jpg" alt="Deepa" />
+              <img src="/fashionimages/homeimages/home9.jpg" alt="Deepa" />
               <h5 className="mt-4">Deepa</h5>
               <p>⭐⭐⭐⭐⭐</p>
               <p>
@@ -271,7 +271,7 @@ export default function Home() {
 
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="testimonial-card">
-              <img src="fashionimages\homeimages\home10.jpg" alt="Chanu" />
+              <img src="/fashionimages/homeimages/home10.jpg" alt="Chanu" />
               <h5 className="mt-4">Chanu</h5>
               <p>⭐⭐⭐⭐⭐</p>
               <p>
