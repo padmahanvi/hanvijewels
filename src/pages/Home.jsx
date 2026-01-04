@@ -295,7 +295,7 @@ export default function Home() {
       <div className="home-page">
         <div className="faq-wrap">
           <h2 className="faq-title">FAQ</h2>
-
+      1111111111111111111111111111111111111111111111111
           {FAQS.map((item, idx) => {
             const isOpen = idx === openIndex;
 
