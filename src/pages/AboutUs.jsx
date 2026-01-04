@@ -32,7 +32,7 @@ export default function AboutUs() {
             {/* Left image */}
             <div className="about-image-wrap">
               <img
-                src="fashionimages/aboutimages/about1.jpg"
+                src="/fashionimages/aboutimages/about1.jpg"
                 alt="Hanvi Collections"
                 className="about-image"
               />
