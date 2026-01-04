@@ -14,7 +14,7 @@
   text-align: center;
   padding: 4rem 1rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.25)),
-    url("fashionimages/shopimages/shop4.jpg");
+    url("/fashionimages/shopimages/shop4.jpg");
   background-size: cover;
   background-position: center;
  margin-top: 30px;
