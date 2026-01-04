@@ -12,7 +12,7 @@ export default function Wishlist() {
       price: 850,
       date: "02 Jan 2026",
       status: "InStock",
-      img: "fashionimages/categoriesimages/category12.jpg",
+      img: "/fashionimages/categoriesimages/category12.jpg",
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ export default function Wishlist() {
       price: 1350,
       date: "01 Jan 2026",
       status: "InStock",
-      img: "fashionimages/categoriesimages/category3.jpg",
+      img: "/fashionimages/categoriesimages/category3.jpg",
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ export default function Wishlist() {
       price: 899,
       date: "01 Jan 2026",
       status: "InStock",
-      img: "fashionimages/categoriesimages/category7.jpg",
+      img: "/fashionimages/categoriesimages/category7.jpg",
     },
   ]);
 
