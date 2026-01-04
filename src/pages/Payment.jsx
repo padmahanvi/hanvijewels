@@ -121,7 +121,7 @@ export default function Payment() {
                     <p className="success-text fw-bold">payment done successfully</p>
                     <div className="success-image-wrap">
                       <img
-                        src="fashionimages/categoriesimages/category11.jpg"
+                        src="/fashionimages/categoriesimages/category11.jpg"
                         alt="Success"
                         className="success-image"
                       />

@@ -14,7 +14,6 @@ const products = [
     { id: "p10", title: "Antique Bangles", img: "/fashionimages/homeimages/home6.jpg", price: 990, oldPrice: 1290, rating: 4, reviews: 60 },
     { id: "p11", title: "Leather Watch", img: "/fashionimages/categoriesimages/category12.jpg", price: 850, oldPrice: 999, rating: 4, reviews: 47 },
     { id: "p12", title: "Pink Handbag", img: "/fashionimages/shopimages/shop2.jpg", price: 450, oldPrice: 699, rating: 4, reviews: 33 },
-
     { id: "p13", title: "Hip Belt", img: "/fashionimages/categoriesimages/category8.jpg", price: 650, oldPrice: 850, rating: 5, reviews: 70 },
     { id: "p14", title: "Designer Long Gown", img: "/fashionimages/categoriesimages/category1.jpg", price: 2000, oldPrice: 2400, rating: 4, reviews: 55 },
     { id: "p15", title: "Gold Plated Bangles", img: "/fashionimages/categoriesimages/category7.jpg", price: 899, oldPrice: 1099, rating: 5, reviews: 90 },

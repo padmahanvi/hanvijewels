@@ -157,7 +157,7 @@ export default function Home() {
           <div className="col-6 col-md-3">
             <div className="category-card">
               <div className="category-img-wrap">
-                <img src="fashionimages\homeimages\home3.jpg" alt="Gift Combo" />
+                <img src="/fashionimages/homeimages/home3.jpg" alt="Gift Combo" />
               </div>
               <div className="category-name">Grand Frock</div>
             </div>
@@ -179,7 +179,7 @@ export default function Home() {
             <div className="category-card">
               <div className="category-img-wrap">
                 <img
-                  src="fashionimages\homeimages\home5.jpg"
+                  src="/fashionimages/homeimages/home5.jpg"
                   alt="Dairy & Breakfast"
                 />
               </div>
@@ -211,7 +211,7 @@ export default function Home() {
         <div className="row justify-content-center">
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="testimonial-card">
-              <img src="fashionimages\homeimages\home7.jpg" alt="Liya" />
+              <img src="/fashionimages/homeimages/home7.jpg" alt="Liya" />
               <h5 className="mt-4">Liya</h5>
               <p>⭐⭐⭐⭐⭐</p>
               <p>
