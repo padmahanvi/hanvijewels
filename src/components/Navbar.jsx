@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import AuthModal from "../pages/AuthModal";
+import logo from "/fashionimages/logo.jpg";
 
 export default function Navbar() {
   const cartCount = 0;
@@ -32,11 +33,7 @@ export default function Navbar() {
         <div className="container-fluid px-3">
           {/* LOGO */}
           <NavLink to="/" className="navbar-brand logo-link">
-            <img
-              src="/fashionimages/logo.jpg"
-              alt="Hanvi Fashion Logo"
-              className="navbar-logo"
-            />
+            <img src={logo} alt="Hanvi Collections Logo" className="navbar-logo" />
           </NavLink>
 
           {/* TOGGLER */}
