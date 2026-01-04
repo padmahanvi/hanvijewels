@@ -23,10 +23,10 @@ const rowsData = [
     {
         heading: "New Arrivals Watches",
         items: [
-            { id: "n1", title: "Premium White Watch", img: "fashionimages/categoriesimages/category9.jpg", price: 1190, oldPrice: 1790, rating: 5, reviews: 88 },
-            { id: "n2", title: "Blue Steel Watch", img: "fashionimages/categoriesimages/category10.jpg", price: 990, oldPrice: 1290, rating: 4, reviews: 60 },
-            { id: "n3", title: "Gold Plated Watch", img: "fashionimages/categoriesimages/category11.jpg", price: 1190, oldPrice: 1490, rating: 4, reviews: 47 },
-            { id: "n4", title: "Leather Watch", img: "fashionimages/categoriesimages/category12.jpg", price: 850, oldPrice: 999, rating: 4, reviews: 33 },
+            { id: "n1", title: "Premium White Watch", img: "/fashionimages/categoriesimages/category9.jpg", price: 1190, oldPrice: 1790, rating: 5, reviews: 88 },
+            { id: "n2", title: "Blue Steel Watch", img: "/fashionimages/categoriesimages/category10.jpg", price: 990, oldPrice: 1290, rating: 4, reviews: 60 },
+            { id: "n3", title: "Gold Plated Watch", img: "/fashionimages/categoriesimages/category11.jpg", price: 1190, oldPrice: 1490, rating: 4, reviews: 47 },
+            { id: "n4", title: "Leather Watch", img: "/fashionimages/categoriesimages/category12.jpg", price: 850, oldPrice: 999, rating: 4, reviews: 33 },
         ],
     },
     {
