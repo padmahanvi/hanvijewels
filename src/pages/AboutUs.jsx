@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./AboutUs.css";
-import about1 from "/fashionimages/aboutimages/about1.jpg";
+import about1 from "/fashionimages/aboutimages/about2.jpg";
 
 export default function AboutUs() {
   return (
