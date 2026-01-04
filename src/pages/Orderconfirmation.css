@@ -1,0 +1,122 @@
+/* HEADER */
+.page-title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.page-subtitle {
+  font-size: 13px;
+  color: #181818;
+  margin-top: 4px;
+}
+
+/* GRADIENT BAR (TOP SUMMARY) */
+.gradient-bar {
+  background: linear-gradient(90deg, #c240b1, #bd1aa5);
+  border-radius: 4px;
+  color: #f2f2f2;
+}
+
+.gradient-bar .label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.gradient-bar .value {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* SECTION TITLE */
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* PRODUCT ROW */
+.product-row {
+  background: linear-gradient(180deg, #8a6708, #ff9117);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 12px 18px;
+  margin-bottom: 15px;
+  color: #efeeed;
+
+  animation: gradientFlip 3s infinite alternate ease-in-out,
+             fadeSlide 0.6s ease-out;
+}
+
+/* Alternate gradient */
+.product-row:nth-child(even) {
+  background: linear-gradient(180deg, #bd1aa5, #ff5ae6);
+}
+
+.product-image-wrapper {
+  width: 110px;
+  height: 80px;
+  border-radius: 4px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+
+.product-image-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.product-name {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.product-price {
+  margin-left: auto;
+  font-weight: 600;
+}
+
+/* SUMMARY ROWS */
+.summary-row {
+  background: linear-gradient(90deg, #b8079e, #bd1aa5);
+  border-radius: 4px;
+  padding: 14px 18px;
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #eeebe7;
+  font-weight: 500;
+}
+
+.summary-row.total-row {
+  font-size: 18px;
+  color: #000;
+  font-weight: 700;
+  background: none;
+}
+
+/* ANIMATIONS */
+@keyframes gradientFlip {
+  0% {
+    background: linear-gradient(180deg, #ef71dc, #bd1aa5);
+  }
+  100% {
+    background: linear-gradient(180deg, #bd1aa5, #da59c9);
+  }
+}
+
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

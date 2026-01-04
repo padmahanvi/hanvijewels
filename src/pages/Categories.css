@@ -1,0 +1,151 @@
+/* HERO (same base hero like your code) */
+.categories-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.25)),
+    url("/handbagimages/contactimages/contact1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Heading underline */
+  .hero-title {
+  color: #bf0b8f;   /* dark pastel pink */
+}
+
+
+
+/* Each category block spacing */
+.category-block {
+  margin-bottom: 55px;
+}
+
+/* PRODUCT CARD (same design) */
+.product-card {
+  border-radius: 78px 1px 78px 1px !important;
+  border: 1px solid #3f3d3d !important;
+  box-shadow: 0 10px 32px rgba(35, 33, 33, 0.5) !important;
+  overflow: hidden;
+  background: #fff;
+  position: relative;
+}
+
+/* Image */
+.product-card img {
+  object-fit: contain;
+  padding: 1.2rem 1.2rem 0 1.2rem;
+  max-height: 250px;
+}
+
+.product-card:hover {
+  border-color: #d4d0d0;
+  box-shadow: 0 25px 35px rgba(0, 0, 0, 0.18);
+}
+
+/* Wishlist heart */
+.wishlist-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  color: #dfdade;
+}
+
+.wishlist-btn.active {
+  color: #bf0b8f !important;
+}
+
+/* Prices */
+.price-new {
+  color: #f24b19;
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.price-old {
+  text-decoration: line-through;
+  color: #9b9b9b;
+  font-size: 0.9rem;
+}
+
+/* Rating */
+.rating-stars {
+  color: #ffc107;
+  font-size: 0.85rem;
+}
+
+/* Add button */
+.btn-add {
+  background: #f9b515;
+  border-radius: 999px;
+  border: none;
+  padding: 0.35rem 1.4rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* View More card */
+
+
+.viewmore-btn {
+  background: #bd1aa5 ;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 0.6rem 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.viewmore-btn:hover {
+  background: #333;
+}
+
+
+/* CART styles (same) */
+.cart-item-img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #f8f8f8;
+}
+
+.cart-qty-btn {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  font-size: 0.8rem;
+}
+
+.cart-total-bar {
+  border-top: 1px solid #eee;
+  padding-top: 0.8rem;
+}
+
+.btn-proceed {
+  background: #f9b515;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+  padding: 0.9rem 1rem;
+}
+.hero-title {
+  text-decoration: none !important;
+}
+

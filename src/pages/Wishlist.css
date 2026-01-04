@@ -1,0 +1,207 @@
+.wish-page {
+  min-height: 100vh;
+  background: #fff;
+  padding: 38px 14px;
+}
+
+/* Outer box like screenshot */
+.wish-card {
+  max-width: 1080px;
+  margin: 0 auto;
+  background: #e9bade;
+  border-radius: 18px;
+  padding: 28px 24px 22px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.10);
+}
+
+.wish-title {
+  font-size: 44px;
+  font-weight: 600;
+  margin: 0 0 18px;
+  color: #111;
+}
+
+/* Table container */
+.wish-table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Header row */
+.wish-head {
+  display: grid;
+  grid-template-columns: 2.4fr 0.7fr 1.1fr 1fr 0.9fr;
+  background: #bd1aa5;
+  color: #fff;
+  font-weight: 600;
+  padding: 14px 18px;
+}
+
+.wh {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.wh-product {
+  padding-left: 0;
+}
+
+.wh-action {
+  justify-content: flex-end;
+}
+
+/* Body rows */
+.wish-row {
+  display: grid;
+  grid-template-columns: 2.4fr 0.7fr 1.1fr 1fr 0.9fr;
+  padding: 16px 18px;
+  align-items: center;
+}
+
+.wish-row.alt {
+  background: #fafafa;
+}
+
+.wc {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #111;
+}
+
+.wc-action {
+  justify-content: flex-end;
+}
+
+/* Product cell */
+.wc-product {
+  gap: 14px;
+}
+
+.wish-img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.wish-name {
+  font-weight: 500;
+}
+
+/* Stock status */
+.stock {
+  color: #bd1aa5;
+  font-weight: 700;
+}
+
+/* Add to cart button */
+.add-btn {
+  background: #bd1aa5;
+  color: #fff;
+  border: 0;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Empty */
+.wish-empty {
+  padding: 22px 18px;
+  background: #fafafa;
+  border-radius: 12px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Bottom row (copy link + clear) */
+.wish-bottom {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.wish-link {
+  flex: 1;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid #cfcfcf;
+  padding: 0 16px;
+  outline: none;
+  font-weight: 500;
+}
+
+.copy-btn {
+  background: #bd1aa5;
+  color: #fff;
+  border: 0;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-weight: 800;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.clear-btn {
+  background: transparent;
+  border: 0;
+  color: #e0002a;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 920px) {
+  .wish-title {
+    font-size: 34px;
+  }
+
+  .wish-head,
+  .wish-row {
+    grid-template-columns: 2.2fr 0.8fr 1.1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .wish-title {
+    font-size: 28px;
+  }
+
+  .wish-head {
+    display: none;
+  }
+
+  .wish-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  .wc-action {
+    justify-content: flex-start;
+  }
+
+  .wish-bottom {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .copy-btn {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .wish-card {
+    padding: 22px 16px 18px;
+  }
+
+  .wish-link {
+    height: 38px;
+    font-size: 14px;
+  }
+}

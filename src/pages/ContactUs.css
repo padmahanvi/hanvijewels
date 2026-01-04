@@ -1,0 +1,119 @@
+:root {
+  --luxe-yellow: #bd1aa5;
+  --luxe-gray: #f383d5;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  min-height: 420px;
+  color: #030303;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 1rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.25)),
+    url("fashionimages/contactimages/contact1.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.hero h1 span {
+  display: block;
+}
+
+.hero p.lead {
+  max-width: 640px;
+  margin: 1.5rem auto 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* CONTACT SECTION */
+.contact-wrapper {
+  padding: 3.5rem 0;
+}
+
+.contact-wrapper p.section-subtitle {
+  color: #0e0e0e;
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+}
+
+/* Info cards */
+.info-card {
+  border-radius: 0.75rem;
+  border: 1px solid #141313;
+  padding: 1.5rem;
+  background-color: #fffdff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  height: 100%;
+}
+
+.info-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: var(--luxe-yellow);
+}
+
+.info-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.info-text {
+  font-size: 0.95rem;
+  color: #0c0c0c;
+}
+
+/* Form card */
+.contact-form-card {
+  border-radius: 0.75rem;
+  padding: 2rem 1.75rem;
+  background-color: var(--luxe-gray);
+  margin-top: 2.5rem;
+}
+
+.form-label {
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-bottom: 0.35rem;
+}
+
+.form-control {
+  border-radius: 0.55rem;
+  background-color: rgb(240, 240, 240) !important;
+}
+
+/* Button */
+.btn-luxe {
+  background-color: var(--luxe-yellow) !important;
+  color: #fafafa !important;
+  border-radius: 9px;
+  border: none;
+  padding-inline: 2.5rem;
+  font-weight: 600;
+  margin-top: 1px;
+}
+
+.btn-luxe:hover {
+  filter: brightness(0.96);
+  color: #f3eded !important;
+  background-color: #be4b03 !important;
+}
