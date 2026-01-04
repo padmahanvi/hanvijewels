@@ -5,19 +5,19 @@ const rowsData = [
     {
         heading: "Our Dress Collection",
         items: [
-            { id: "c1", title: "Designer Long Gown", img: "fashionimages/categoriesimages/category1.jpg", price: 2000, oldPrice: 2400, rating: 5, reviews: 65 },
-            { id: "c2", title: "Elegant Evening Gown", img: "fashionimages/categoriesimages/category2.jpg", price: 1960, oldPrice: 2160, rating: 5, reviews: 65 },
-            { id: "c3", title: "Designer Pant-Shirt", img: "fashionimages/categoriesimages/category3.jpg", price: 1350, oldPrice: 1600, rating: 5, reviews: 72 },
-            { id: "c4", title: "Classic Half-Saree", img: "fashionimages/categoriesimages/category4.jpg", price: 1500, oldPrice: 1950, rating: 4, reviews: 51 },
+            { id: "c1", title: "Designer Long Gown", img: "/fashionimages/categoriesimages/category1.jpg", price: 2000, oldPrice: 2400, rating: 5, reviews: 65 },
+            { id: "c2", title: "Elegant Evening Gown", img: "/fashionimages/categoriesimages/category2.jpg", price: 1960, oldPrice: 2160, rating: 5, reviews: 65 },
+            { id: "c3", title: "Designer Pant-Shirt", img: "/fashionimages/categoriesimages/category3.jpg", price: 1350, oldPrice: 1600, rating: 5, reviews: 72 },
+            { id: "c4", title: "Classic Half-Saree", img: "/fashionimages/categoriesimages/category4.jpg", price: 1500, oldPrice: 1950, rating: 4, reviews: 51 },
         ],
     },
     {
         heading: "Trending Jewellery",
         items: [
-            { id: "t1", title: "American Diamond Earrings", img: "fashionimages/categoriesimages/category5.jpg", price: 799, oldPrice: 999, rating: 4, reviews: 34 },
-            { id: "t2", title: "Kundan Stone Set", img: "fashionimages/categoriesimages/category6.jpg", price: 1399, oldPrice: 1699, rating: 5, reviews: 58 },
-            { id: "t3", title: "Gold Plated Bangles", img: "fashionimages/categoriesimages/category7.jpg", price: 899, oldPrice: 1099, rating: 4, reviews: 41 },
-            { id: "t4", title: "Hip Belt", img: "fashionimages/categoriesimages/category8.jpg", price: 650, oldPrice: 850, rating: 4, reviews: 29 },
+            { id: "t1", title: "American Diamond Earrings", img: "/fashionimages/categoriesimages/category5.jpg", price: 799, oldPrice: 999, rating: 4, reviews: 34 },
+            { id: "t2", title: "Kundan Stone Set", img: "/fashionimages/categoriesimages/category6.jpg", price: 1399, oldPrice: 1699, rating: 5, reviews: 58 },
+            { id: "t3", title: "Gold Plated Bangles", img: "/fashionimages/categoriesimages/category7.jpg", price: 899, oldPrice: 1099, rating: 4, reviews: 41 },
+            { id: "t4", title: "Hip Belt", img: "/fashionimages/categoriesimages/category8.jpg", price: 650, oldPrice: 850, rating: 4, reviews: 29 },
         ],
     },
     {
@@ -32,10 +32,10 @@ const rowsData = [
     {
         heading: "Limited Offers",
         items: [
-            { id: "p20", title: "Purple Grand Frock", img: "fashionimages/shopimages/shop1.jpg", price: 1799, oldPrice: 2999, rating: 5, reviews: 45 },
-            { id: "l2", title: "Stylish Handbag", img: "fashionimages/shopimages/shop3.jpg", price: 499, oldPrice: 1299, rating: 4, reviews: 37 },
-            { id: "p19", title: "Chocker Necksets", img: "fashionimages/homeimages/home5.jpg", price: 999, oldPrice: 1499, rating: 4, reviews: 28 },
-            { id: "p2", title: "Gold Strap Watch", img: "fashionimages/homeimages/home4.jpg", price: 960, oldPrice: 1160, rating: 5, reviews: 65 },
+            { id: "p20", title: "Purple Grand Frock", img: "/fashionimages/shopimages/shop1.jpg", price: 1799, oldPrice: 2999, rating: 5, reviews: 45 },
+            { id: "l2", title: "Stylish Handbag", img: "/fashionimages/shopimages/shop3.jpg", price: 499, oldPrice: 1299, rating: 4, reviews: 37 },
+            { id: "p19", title: "Chocker Necksets", img: "/fashionimages/homeimages/home5.jpg", price: 999, oldPrice: 1499, rating: 4, reviews: 28 },
+            { id: "p2", title: "Gold Strap Watch", img: "/fashionimages/homeimages/home4.jpg", price: 960, oldPrice: 1160, rating: 5, reviews: 65 },
         ],
     },
 ];
