@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./AboutUs.css";
 import about1 from "/fashionimages/aboutimages/about1.jpg";
 
-
 export default function AboutUs() {
   return (
     <div className="about-page">
@@ -33,7 +32,11 @@ export default function AboutUs() {
           <div className="about-grid">
             {/* Left image */}
             <div className="about-image-wrap">
-               <img  src={about1} alt="About Hanvi Collections" className="about-image" />
+              <img
+                src={about1}
+                alt="About Hanvi Collections"
+                className="about-image"
+              />
             </div>
 
             {/* Right text */}
@@ -44,21 +47,22 @@ export default function AboutUs() {
               </h2>
 
               <p>
-                At Hanvi Collections, we bring you a timeless blend of
-                elegance, craftsmanship, and style. Our jewellery and fashion accessories are designed to
-                celebrate every moment, from everyday wear to the most special
-                occasions. Inspired by tradition and enhanced by modern artistry,
-                each piece reflects a story of sophistication and love.
+                At Hanvi Collections, we bring you a timeless blend of elegance,
+                craftsmanship, and style. Our jewellery and fashion accessories
+                are designed to celebrate every moment, from everyday wear to
+                the most special occasions. Inspired by tradition and enhanced
+                by modern artistry, each piece reflects a story of sophistication
+                and love.
               </p>
 
               <p>
-                Hanvi Collection offers an exquisite range of jewelleries,dresses and
-                fashion accessories including necklaces, earrings, bracelets, rings, and
-                custom-designed pieces. Whether you prefer classic gold,
-                contemporary silver, or sparkling gemstones, our collection
-                caters to every taste. Perfect for weddings, parties, or casual
-                outings, our jewellery promises to add a touch of glamour to your
-                ensemble.
+                Hanvi Collection offers an exquisite range of jewelleries,
+                dresses and fashion accessories including necklaces, earrings,
+                bracelets, rings, and custom-designed pieces. Whether you prefer
+                classic gold, contemporary silver, or sparkling gemstones, our
+                collection caters to every taste. Perfect for weddings, parties,
+                or casual outings, our jewellery promises to add a touch of
+                glamour to your ensemble.
               </p>
             </div>
           </div>
