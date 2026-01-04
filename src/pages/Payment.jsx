@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Payment.css";
 /* ✅ Vite image import (deployment safe) */
-import successImg from "../assets/fashionimages/categoriesimages/category11.jpg";
+import successImg from "/fashionimages/categoriesimages/category11.jpg";
 
 export default function Payment() {
   const navigate = useNavigate();
