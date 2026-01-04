@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Home.css";
 
+const img = (path) => `${process.env.PUBLIC_URL}${path}`;
+
 const FAQS = [
   {
     q: "Q1. How do I place an order on Hanvi Fashion?",
@@ -91,7 +93,7 @@ export default function Home() {
 
                 <div className="hero-right">
                   <img
-                    src="/fashionimages/homeimages/home1.jpg"
+                    src="{img("/fashionimages/homeimages/home1.jpg")}
                     alt="Banner 1"
                     className="hero-img"
                   />
@@ -117,7 +119,7 @@ export default function Home() {
 
                 <div className="hero-right">
                   <img
-                    src="/fashionimages/homeimages/home2.jpg"
+                    src= {img("/fashionimages/homeimages/home2.jpg")}
                     alt="Banner 2"
                     className="hero-img"
                   />
@@ -157,7 +159,9 @@ export default function Home() {
           <div className="col-6 col-md-3">
             <div className="category-card">
               <div className="category-img-wrap">
-                <img src="/fashionimages/homeimages/home3.jpg" alt="Gift Combo" />
+                <img src={img("/fashionimages/homeimages/home3.jpg")}
+                  alt="Grand Frock"
+                  />
               </div>
               <div className="category-name">Grand Frock</div>
             </div>
@@ -167,7 +171,7 @@ export default function Home() {
             <div className="category-card">
               <div className="category-img-wrap">
                 <img
-                  src="/fashionimages/homeimages/home4.jpg"
+                  src={img("/fashionimages/homeimages/home4.jpg")}
                   alt="Watches"
                 />
               </div>
@@ -179,8 +183,8 @@ export default function Home() {
             <div className="category-card">
               <div className="category-img-wrap">
                 <img
-                  src="/fashionimages/homeimages/home5.jpg"
-                  alt="Dairy & Breakfast"
+                  src={img("/fashionimages/homeimages/home5.jpg")}
+                  alt="Choker Necksets"
                 />
               </div>
               <div className="category-name">Choker Necksets</div>
@@ -191,7 +195,7 @@ export default function Home() {
             <div className="category-card">
               <div className="category-img-wrap">
                 <img
-                  src="/fashionimages/homeimages/home6.jpg"
+                  src={img("/fashionimages/homeimages/home6.jpg")}
                   alt="Electronics & Accessories"
                 />
               </div>
@@ -211,7 +215,7 @@ export default function Home() {
         <div className="row justify-content-center">
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="testimonial-card">
-              <img src="/fashionimages/homeimages/home7.jpg" alt="Liya" />
+              <img src={img("/fashionimages/homeimages/home7.jpg")} alt="Liya" />
               <h5 className="mt-4">Liya</h5>
               <p>⭐⭐⭐⭐⭐</p>
               <p>
@@ -231,7 +235,7 @@ export default function Home() {
 
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="testimonial-card">
-              <img src="/fashionimages/homeimages/home8.jpg" alt="Moni" />
+              <img src={img("/fashionimages/homeimages/home8.jpg")} alt="Moni" />
               <h5 className="mt-4">Moni</h5>
               <p>⭐⭐⭐⭐⭐</p>
               <p>
@@ -251,7 +255,7 @@ export default function Home() {
 
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="testimonial-card">
-              <img src="/fashionimages/homeimages/home9.jpg" alt="Deepa" />
+              <img src={img("/fashionimages/homeimages/home9.jpg")} alt="Deepa" />
               <h5 className="mt-4">Deepa</h5>
               <p>⭐⭐⭐⭐⭐</p>
               <p>
@@ -271,7 +275,7 @@ export default function Home() {
 
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="testimonial-card">
-              <img src="/fashionimages/homeimages/home10.jpg" alt="Chanu" />
+              <img src={img("/fashionimages/homeimages/home10.jpg")} alt="Chanu" />
               <h5 className="mt-4">Chanu</h5>
               <p>⭐⭐⭐⭐⭐</p>
               <p>
@@ -295,7 +299,6 @@ export default function Home() {
       <div className="home-page">
         <div className="faq-wrap">
           <h2 className="faq-title">FAQ</h2>
-      1111111111111111111111111111111111111111111111111
           {FAQS.map((item, idx) => {
             const isOpen = idx === openIndex;
 
