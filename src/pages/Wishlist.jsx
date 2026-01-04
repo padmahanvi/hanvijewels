@@ -2,6 +2,12 @@ import React, { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Wishlist.css";
 
+/* ✅ Vite image imports (deployment safe) */
+import category12 from "/fashionimages/categoriesimages/category12.jpg";
+import category3 from "/fashionimages/categoriesimages/category3.jpg";
+import category4 from "/fashionimages/categoriesimages/category4.jpg";
+import category7 from "/fashionimages/categoriesimages/category7.jpg";
+
 export default function Wishlist() {
   const navigate = useNavigate();
 
@@ -12,7 +18,7 @@ export default function Wishlist() {
       price: 850,
       date: "02 Jan 2026",
       status: "InStock",
-      img: "/fashionimages/categoriesimages/category12.jpg",
+      img: category12,
     },
     {
       id: 2,
@@ -20,7 +26,7 @@ export default function Wishlist() {
       price: 1350,
       date: "01 Jan 2026",
       status: "InStock",
-      img: "/fashionimages/categoriesimages/category3.jpg",
+      img: category3,
     },
     {
       id: 3,
@@ -28,7 +34,7 @@ export default function Wishlist() {
       price: 1500,
       date: "01 Jan 2026",
       status: "InStock",
-      img: "/fashionimages/categoriesimages/category4.jpg",
+      img: category4,
     },
     {
       id: 4,
@@ -36,7 +42,7 @@ export default function Wishlist() {
       price: 899,
       date: "01 Jan 2026",
       status: "InStock",
-      img: "/fashionimages/categoriesimages/category7.jpg",
+      img: category7,
     },
   ]);
 
@@ -45,8 +51,13 @@ export default function Wishlist() {
   }, []);
 
   const copyLink = async () => {
-    await navigator.clipboard.writeText(shareLink);
-    alert("Link copied!");
+    try {
+      await navigator.clipboard.writeText(shareLink);
+      alert("Link copied!");
+    } catch (err) {
+      alert("Copy failed. Please copy manually.");
+      console.error(err);
+    }
   };
 
   const clearWishlist = () => setRows([]);
@@ -115,7 +126,7 @@ export default function Wishlist() {
           </button>
 
           <button className="clear-btn" type="button" onClick={clearWishlist}>
-            clear Wishlist
+            Clear Wishlist
           </button>
         </div>
       </div>

@@ -1,6 +1,12 @@
 import React from "react";
 import "./Orderconfirmation.css";
 
+/* ✅ Vite image imports (deployment safe) */
+import category7 from "/fashionimages/categoriesimages/category7.jpg";
+import shop1 from "/fashionimages/shopimages/shop1.jpg";
+import category6 from "/fashionimages/categoriesimages/category6.jpg";
+import category4 from "/fashionimages/categoriesimages/category4.jpg";
+
 export default function Orderconfirmation() {
   // Dummy data (you can replace with real order data later)
   const order = {
@@ -13,25 +19,25 @@ export default function Orderconfirmation() {
         id: 1,
         name: "Gold Plated Bangles",
         price: 899,
-        img: "/fashionimages/categoriesimages/category7.jpg",
+        img: category7,
       },
       {
         id: 2,
         name: "Purple Grand Frock",
         price: 1799,
-        img: "/fashionimages/shopimages/shop1.jpg",
+        img: shop1,
       },
       {
         id: 3,
         name: "Kundan Stone Set",
         price: 1399,
-        img: "/fashionimages/categoriesimages/category6.jpg",
+        img: category6,
       },
       {
         id: 4,
         name: "Classic Half-Saree",
         price: 1500,
-        img: "/fashionimages/categoriesimages/category4.jpg",
+        img: category4,
       },
     ],
     shipping: 0,
@@ -108,12 +114,12 @@ export default function Orderconfirmation() {
       {/* Summary rows */}
       <div className="summary-row">
         <span>Shipping</span>
-        <span>Rs.{order.shipping.toFixed(1)}</span>
+        <span>Rs.{Number(order.shipping).toFixed(1)}</span>
       </div>
 
       <div className="summary-row">
         <span>Taxes</span>
-        <span>Rs.{order.taxes.toFixed(1)}</span>
+        <span>Rs.{Number(order.taxes).toFixed(1)}</span>
       </div>
 
       <div className="summary-row">

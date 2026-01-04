@@ -1,7 +1,17 @@
 import React, { useState } from "react";
 import "./Home.css";
 
-const img = (path) => `${process.env.PUBLIC_URL}${path}`;
+// ✅ Import images (Vite will bundle them correctly for deployment)
+import home1 from "/fashionimages/homeimages/home1.jpg";
+import home2 from "/fashionimages/homeimages/home2.jpg";
+import home3 from "/fashionimages/homeimages/home3.jpg";
+import home4 from "/fashionimages/homeimages/home4.jpg";
+import home5 from "/fashionimages/homeimages/home5.jpg";
+import home6 from "/fashionimages/homeimages/home6.jpg";
+import home7 from "/fashionimages/homeimages/home7.jpg";
+import home8 from "/fashionimages/homeimages/home8.jpg";
+import home9 from "/fashionimages/homeimages/home9.jpg";
+import home10 from "/fashionimages/homeimages/home10.jpg";
 
 const FAQS = [
   {
@@ -92,11 +102,7 @@ export default function Home() {
                 </div>
 
                 <div className="hero-right">
-                  <img
-                    src="{img("/fashionimages/homeimages/home1.jpg")}
-                    alt="Banner 1"
-                    className="hero-img"
-                  />
+                  <img src={home1} alt="Banner 1" className="hero-img" />
                 </div>
               </div>
             </div>
@@ -118,11 +124,7 @@ export default function Home() {
                 </div>
 
                 <div className="hero-right">
-                  <img
-                    src= {img("/fashionimages/homeimages/home2.jpg")}
-                    alt="Banner 2"
-                    className="hero-img"
-                  />
+                  <img src={home2} alt="Banner 2" className="hero-img" />
                 </div>
               </div>
             </div>
@@ -159,9 +161,7 @@ export default function Home() {
           <div className="col-6 col-md-3">
             <div className="category-card">
               <div className="category-img-wrap">
-                <img src={img("/fashionimages/homeimages/home3.jpg")}
-                  alt="Grand Frock"
-                  />
+                <img src={home3} alt="Grand Frock" />
               </div>
               <div className="category-name">Grand Frock</div>
             </div>
@@ -170,10 +170,7 @@ export default function Home() {
           <div className="col-6 col-md-3">
             <div className="category-card">
               <div className="category-img-wrap">
-                <img
-                  src={img("/fashionimages/homeimages/home4.jpg")}
-                  alt="Watches"
-                />
+                <img src={home4} alt="Watches" />
               </div>
               <div className="category-name">Watches</div>
             </div>
@@ -182,10 +179,7 @@ export default function Home() {
           <div className="col-6 col-md-3">
             <div className="category-card">
               <div className="category-img-wrap">
-                <img
-                  src={img("/fashionimages/homeimages/home5.jpg")}
-                  alt="Choker Necksets"
-                />
+                <img src={home5} alt="Choker Necksets" />
               </div>
               <div className="category-name">Choker Necksets</div>
             </div>
@@ -194,10 +188,7 @@ export default function Home() {
           <div className="col-6 col-md-3">
             <div className="category-card">
               <div className="category-img-wrap">
-                <img
-                  src={img("/fashionimages/homeimages/home6.jpg")}
-                  alt="Electronics & Accessories"
-                />
+                <img src={home6} alt="Bangles" />
               </div>
               <div className="category-name">Bangles</div>
             </div>
@@ -215,7 +206,7 @@ export default function Home() {
         <div className="row justify-content-center">
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="testimonial-card">
-              <img src={img("/fashionimages/homeimages/home7.jpg")} alt="Liya" />
+              <img src={home7} alt="Liya" />
               <h5 className="mt-4">Liya</h5>
               <p>⭐⭐⭐⭐⭐</p>
               <p>
@@ -235,7 +226,7 @@ export default function Home() {
 
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="testimonial-card">
-              <img src={img("/fashionimages/homeimages/home8.jpg")} alt="Moni" />
+              <img src={home8} alt="Moni" />
               <h5 className="mt-4">Moni</h5>
               <p>⭐⭐⭐⭐⭐</p>
               <p>
@@ -255,7 +246,7 @@ export default function Home() {
 
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="testimonial-card">
-              <img src={img("/fashionimages/homeimages/home9.jpg")} alt="Deepa" />
+              <img src={home9} alt="Deepa" />
               <h5 className="mt-4">Deepa</h5>
               <p>⭐⭐⭐⭐⭐</p>
               <p>
@@ -275,7 +266,7 @@ export default function Home() {
 
           <div className="col-md-3 col-sm-6 mb-4">
             <div className="testimonial-card">
-              <img src={img("/fashionimages/homeimages/home10.jpg")} alt="Chanu" />
+              <img src={home10} alt="Chanu" />
               <h5 className="mt-4">Chanu</h5>
               <p>⭐⭐⭐⭐⭐</p>
               <p>
@@ -299,6 +290,7 @@ export default function Home() {
       <div className="home-page">
         <div className="faq-wrap">
           <h2 className="faq-title">FAQ</h2>
+
           {FAQS.map((item, idx) => {
             const isOpen = idx === openIndex;
 
